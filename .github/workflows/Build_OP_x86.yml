@@ -8,6 +8,8 @@
 name: Build_x86
 
 on: 
+  workflow_dispatch:
+  
   release:
     types: [published]
 
